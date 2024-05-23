@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone",
+      "price": "1000",
+      "type": "phone"
+    },
+    {
+      "id": 2,
+      "name": "Nokia",
+      "price": "500",
+      "type": "phone"
+    },
+    {
+      "id": 3,
+      "name": "Oppo",
+      "price": "1200",
+      "type": "phone"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "date": "07/12/2023",
+      "total": "100",
+      "quantity": "10",
+      "product": {
+        "id": 1,
+        "name": "Iphone",
+        "price": "1000",
+        "type": "phone"
+      }
+    },
+    {
+      "id": 2,
+      "date": "08/12/2023",
+      "total": "100",
+      "quantity": "10",
+      "product": {
+        "id": 2,
+        "name": "Nokia",
+        "price": "500",
+        "type": "phone"
+      }
+    },
+    {
+      "id": 3,
+      "date": "07/12/2024",
+      "total": "100",
+      "quantity": "10",
+      "product": {
+        "id": 2,
+        "name": "Nokia",
+        "price": "500",
+        "type": "phone"
+      }
+    },
+    {
+      "id": 5,
+      "date": "07/12/2023",
+      "total": 10000,
+      "quantity": "20",
+      "product": {
+        "id": 2,
+        "name": "Nokia",
+        "price": "500",
+        "type": "phone"
+      }
+    }
+  ]
+}

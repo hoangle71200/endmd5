@@ -1,0 +1,80 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "TriA",
+        "address": "Đà nẵng",
+        "classroom": {
+          "id": 2,
+          "nameClass": "C1223G1"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Nokia",
+        "address": "295 Nguyen Tat Thanh",
+        "classroom": {
+          "id": 1,
+          "nameClass": "C1123G1"
+        }
+      }
+    ],
+    "classrooms": [
+      {
+        "id": 1,
+        "nameClass": "C1123G1"
+      },
+      {
+        "id": 2,
+        "nameClass": "C1223G1"
+      }
+    ],
+    "teacher": {}
+    ,
+    "product": [
+      {
+        "id": 1,
+        "name": "Iphone",
+        "price": "1000",
+        "type": "phone"
+      },
+      {
+        "id": 2,
+        "name": "Nokia",
+        "price": "500",
+        "type": "phone"
+      },
+      {
+        "id": 3,
+        "name": "Oppo",
+        "price": "1200",
+        "type": "phone"
+      }
+    ],
+    "booking": [
+      {
+        "id": 1,
+        "date": "07/12/2023",
+        "total": "100",
+        "quantity": "10",
+        "product": {
+          "id": 1,
+          "name": "Iphone",
+          "price": "1000",
+          "type": "phone"
+        }
+      },
+      {
+        "id": 2,
+        "date": "08/12/2023",
+        "total": "100",
+        "quantity": "10",
+        "product": {
+          "id": 2,
+          "name": "Nokia",
+          "price": "500",
+          "type": "phone"
+        }
+      }
+    ]
+  }
